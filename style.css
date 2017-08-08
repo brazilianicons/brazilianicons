@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Brazilian-States-Icons';
+  src:  url('fonts/Brazilian-States-Icons.eot?yxw37d');
+  src:  url('fonts/Brazilian-States-Icons.eot?yxw37d#iefix') format('embedded-opentype'),
+    url('fonts/Brazilian-States-Icons.ttf?yxw37d') format('truetype'),
+    url('fonts/Brazilian-States-Icons.woff?yxw37d') format('woff'),
+    url('fonts/Brazilian-States-Icons.svg?yxw37d#Brazilian-States-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i, .br-liga {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Brazilian-States-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.br{
+  display: inline-block;
+  font-size: 3em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.br-acre:before {
+  content: "\e900";
+}
+.br-alagoas:before {
+  content: "\e901";
+}
+.br-amapa:before {
+  content: "\e902";
+}
+.br-amazonas:before {
+  content: "\e903";
+}
+.br-bahia:before {
+  content: "\e904";
+}
+.br-brasil:before {
+  content: "\e905";
+}
+.br-ceara:before {
+  content: "\e906";
+}
+.br-destrito-federal:before {
+  content: "\e907";
+}
+.br-espirito-santo:before {
+  content: "\e908";
+}
+.br-goias:before {
+  content: "\e909";
+}
+.br-maranhao:before {
+  content: "\e90a";
+}
+.br-mato-grosso-do-sul:before {
+  content: "\e90b";
+}
+.br-mato-grosso:before {
+  content: "\e90c";
+}
+.br-minas-gerais:before {
+  content: "\e90d";
+}
+.br-para:before {
+  content: "\e90e";
+}
+.br-paraiba:before {
+  content: "\e90f";
+}
+.br-parana:before {
+  content: "\e910";
+}
+.br-pernambuco:before {
+  content: "\e911";
+}
+.br-piaui:before {
+  content: "\e912";
+}
+.br-rio-de-janeiro:before {
+  content: "\e913";
+}
+.br-rio-grande-do-norte:before {
+  content: "\e914";
+}
+.br-rio-grande-do-sul:before {
+  content: "\e915";
+}
+.br-rondonia:before {
+  content: "\e916";
+}
+.br-roraima:before {
+  content: "\e917";
+}
+.br-santa-catarina:before {
+  content: "\e918";
+}
+.br-sao-paulo:before {
+  content: "\e919";
+}
+.br-sergipe:before {
+  content: "\e91a";
+}
+.br-tocantins:before {
+  content: "\e91b";
+}
