@@ -15,6 +15,7 @@ document.body.addEventListener("click", function(e) {
         testDrive = document.getElementById('testDrive'),
         testText = document.getElementById('testText');
     function updateTest() {
+        testText.value = testText.value.toLowerCase()
         testDrive.innerHTML = testText.value || String.fromCharCode(160);
         if (window.brLiga) {
             window.brLiga(testDrive);
