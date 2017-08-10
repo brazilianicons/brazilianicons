@@ -1,25 +1,25 @@
 @font-face {
   font-family: 'Bariol_Thint';
-  src:  url('fonts/Bariol_Thin.otf');
+  src:  url('../fonts/Bariol_Thin.otf');
   font-weight: lighter;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bariol_Light';
-  src:  url('fonts/Bariol_Light.otf');
+  src:  url('../fonts/Bariol_Light.otf');
   font-weight: lighter;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bariol_Regular';
-  src:  url('fonts/Bariol_Regular.otf');
+  src:  url('../fonts/Bariol_Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Bariol-Bold';
-  src:  url('fonts/Bariol-Bold.ttf');
+  src:  url('../fonts/Bariol-Bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
