@@ -43,7 +43,6 @@ body {
   color: white;
   opacity: 0.95;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .header p{
@@ -63,8 +62,8 @@ body {
   text-decoration: none;
 }
 .header .container{
-  padding-top: 100px;
-  padding-bottom: 140px;
+  padding-top: 150px;
+  padding-bottom: 190px;
 }
 .header h1{
   position: relative;
@@ -82,7 +81,7 @@ body {
 .header small{
   color: white;
   font-family: Bariol_Thint;
-  font-size: 0.59em;
+  font-size: 0.464em;
   display: block;
 }
 .header .btn-download .glyphicon{
@@ -113,6 +112,23 @@ body {
     margin-top: 1em;
   }
 }
+
+section#newsletter{
+  padding: 30px 15px;
+  margin-bottom: 40px;
+}
+#newsletter-form input{
+  border: 1px solid rgba(231, 231, 231, 1);
+}
+
+#newsletter-form button{
+  background:  #fcd86b;
+  border: 1px solid #fcd86b;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+
 
 .glyph{
   margin: 30px 0px;
