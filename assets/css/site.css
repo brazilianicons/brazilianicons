@@ -81,7 +81,7 @@ body {
 .header small{
   color: white;
   font-family: Bariol_Thint;
-  font-size: 0.464em;
+  font-size: 0.462em;
   display: block;
 }
 .header .btn-download .glyphicon{
@@ -114,8 +114,7 @@ body {
 }
 
 section#newsletter{
-  padding: 30px 15px;
-  margin-bottom: 40px;
+  padding: 40px 15px;
 }
 #newsletter-form input{
   border: 1px solid rgba(231, 231, 231, 1);
@@ -128,6 +127,10 @@ section#newsletter{
   -webkit-font-smoothing: antialiased;
 }
 
+#headline{
+  -webkit-font-smoothing: antialiased;
+  border-bottom: 1px solid rgba(231, 231, 231, 1);
+}
 
 
 .glyph{
