@@ -29,3 +29,16 @@ document.body.addEventListener("click", function(e) {
     testText.addEventListener('change', updateTest, false);
     updateSize();
 }());
+
+
+(function ($) {
+    $(".input-group-btn > .btn").on("click", function () {
+
+        var _email = $("input.form-control").val();
+        console.log(_email)
+        apostle.domainkey = "9986ddd42de84ef1efe674085dfee93dca87e299";
+        apostle.deliver("welcome", {email: _email});
+    })
+
+
+})(jQuery)
