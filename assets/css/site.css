@@ -116,15 +116,25 @@ body {
 section#newsletter{
   padding: 40px 15px;
 }
-#newsletter-form input{
+.newsletter-form input.email{
   border: 1px solid rgba(231, 231, 231, 1);
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
 }
 
-#newsletter-form button{
+.newsletter-form button{
   background:  #fcd86b;
   border: 1px solid #fcd86b;
   color: white;
   -webkit-font-smoothing: antialiased;
+  margin-top: 20px
+}
+
+.newsletter-form button:hover,
+.newsletter-form button:active{
+  color: #fff;
+  background-color: #FCD051;
+  border-color: #FCD051;
 }
 
 #headline{
