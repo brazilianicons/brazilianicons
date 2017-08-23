@@ -131,6 +131,7 @@ section#newsletter{
 }
 
 .newsletter-form button:hover,
+.newsletter-form button:focus,
 .newsletter-form button:active{
   color: #fff;
   background-color: #FCD051;
